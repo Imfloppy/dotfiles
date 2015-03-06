@@ -8,8 +8,8 @@ if has('vim_starting')
 endif
 call neobundle#begin(expand('~/.vim/bundle/'))
 NeoBundleFetch 'Shougo/neobundle.vim'
-
-" Bundles here:
+NeoBundle 'tpope/vim-fugitive'
+NeoBundle 'airblade/vim-gitgutter'
 
 call neobundle#end()
 
@@ -18,3 +18,11 @@ filetype plugin indent on
 NeoBundleCheck
 
 set number
+set modeline
+set modelines=4
+syntax enable
+set cursorline
+set hlsearch
+set incsearch
+set laststatus=2
+set scrolloff=3
