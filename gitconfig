@@ -1,0 +1,8 @@
+[core]
+	editor = vim
+[user]
+	email = smatthew7000@gmail.com
+	name = Matthew
+[alias]
+	st = status -sb
+	co = checkout
