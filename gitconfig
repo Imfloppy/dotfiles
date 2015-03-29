@@ -3,5 +3,7 @@
 [alias]
 	st = status -sb
 	co = checkout
+[push]
+  default = current
 [include]
   path = .gitconfig.local
