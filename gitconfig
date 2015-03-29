@@ -1,9 +1,9 @@
 [core]
-	editor = vim
+    editor = vim
 [alias]
-	st = status -sb
-	co = checkout
+    st = status -sb
+    co = checkout
 [push]
-  default = current
+    default = current
 [include]
-  path = .gitconfig.local
+    path = .gitconfig.local
