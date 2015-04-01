@@ -3,6 +3,7 @@
 [alias]
     st = status -sb
     co = checkout
+    up = !git fetch origin && git rebase origin/master
 [push]
     default = current
 [include]
